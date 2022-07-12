@@ -1,7 +1,14 @@
 body{
     text-align: center;
 }
-button{
+#increment-btn{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+#decrement-btn{
     padding: 20px;
     font-size: 20px;
     color: white;
