@@ -15,3 +15,10 @@ body{
     background-color: darkred;
     cursor: pointer;
 }
+#save-btn{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    background-color:yellow;
+    cursor: pointer;
+}
