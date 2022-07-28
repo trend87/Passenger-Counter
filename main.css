@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    padding: 20px;
+    margin: 20px;
 }
 #increment-btn{
     padding: 20px;
@@ -21,4 +23,14 @@ body{
     color: black;
     background-color:yellow;
     cursor: pointer;
+}
+button{
+    margin: 4px;
+}
+span{
+    border-bottom: 1px solid black;
+}
+#sum-el{
+    border-bottom: none;
+   
 }
