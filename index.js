@@ -1,8 +1,19 @@
+// CREATING BLACK JACK GAME
 
 
 
+let firstCard = 5
+let secondCard = 8
 
+let sum = firstCard + secondCard
 
+if (sum < 21){
+    console.log("Do you want to draw another card?")
+} else if (sum === 21){
+    console.log("Hurray you've got Black Jack!")
+}else{
+    console.log("You are out of the game.")
+}
 
 
 
