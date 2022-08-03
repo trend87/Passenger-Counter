@@ -1,9 +1,22 @@
 body{
+    background-image: url(images/blackjack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding: 20px;
     margin: 20px;
+   
 }
-#increment-btn{
+h1{
+    color:goldenrod;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+/* #increment-btn{
     padding: 20px;
     font-size: 20px;
     color: white;
@@ -33,4 +46,4 @@ span{
 #sum-el{
     border-bottom: none;
    
-}
+} */
