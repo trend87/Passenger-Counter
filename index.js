@@ -4,22 +4,23 @@
 
 let firstCard = 10
 let secondCard = 6
-let sum = firstCard + secondCard +10
+let sum = firstCard + secondCard 
 let hasBlackJack = false 
-isAlive = true
+let isAlive = true
+let messageEl = document.getElementById("message-el")
 
 function startGame(){
     if (sum <= 20){
-        console.log("Do you want to draw another card?")
+        message = ("Do you want to draw another card?")
         
     } else if (sum === 21){
-        console.log("Hurray you've got Blackjack!")
+        message = ("Hurray you've got Blackjack!")
         hasBlackJack = true
     }else{
-        console.log("You are out of the game.")
+        message = ("You are out of the game.")
         isAlive = false
     }
-    console.log(isAlive)
+    messageEl.textContent = message
 }
 
 
