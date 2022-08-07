@@ -8,7 +8,8 @@ let sum = firstCard + secondCard
 let hasBlackJack = false 
 let isAlive = true
 let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
+// let sumEl = document.getElementById("sum-el")
+let sumEl = document.querySelector("#sum-el")
 
 function startGame(){
     sumEl.textContent += " " + sum
