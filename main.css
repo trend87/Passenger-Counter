@@ -29,6 +29,9 @@ button{
 button:hover{
     cursor: pointer;
 }
+#newCard{
+margin-top: 5px;
+}
 
 /* #increment-btn{
     padding: 20px;
